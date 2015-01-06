@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_privilegios" value="name:nombreEmp;datatype:string,name:cod_suc;datatype:string,name:control;datatype:string,name:graba;datatype:string,name:modifica;datatype:string,name:consulta;datatype:string,name:borra;datatype:string" />
+</info>

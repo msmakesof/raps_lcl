@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_tipo_audioria" value="name:cod_ti_audit;datatype:int,name:nom_ti_audit;datatype:string" />
+	<infoitem key="UD_rstipo_auditoria" value="name:nom_ti_audit;datatype:int,name:cod_ti_audit;datatype:int" />
+	<infoitem key="UD_rstipo_auditoria1" value="name:nom_ti_audit;datatype:string,name:cod_ti_audit;datatype:int" />
+</info>

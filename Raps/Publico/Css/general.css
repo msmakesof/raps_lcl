@@ -1,0 +1,112 @@
+#txtBusqueda
+{
+   float:right;
+   width: 250px;
+}
+#tablePaginador
+{
+  width: 98%;
+  margin-left: 1%
+}
+
+#tablePaginador th
+{
+  text-align: center;
+}
+
+#titulo_forma
+{
+	background-color: #000E16;
+	padding: 0.5%;
+	height: 40px;
+	color: #FFF;
+	font-size: 16px;
+	border-radius: 8px 8px 0px 0px;
+}
+#forma
+{
+	background-color: #FFF;
+	height: auto;
+}
+
+.tamano_campo
+{
+	width: 80%;
+	padding-left: 22%;
+}
+
+.botonNaranja {
+  background: #E94A06;
+  background-image: -webkit-linear-gradient(top, #E94A06, #d1724d);
+  background-image: -moz-linear-gradient(top, #E94A06, #d1724d);
+  background-image: -ms-linear-gradient(top, #E94A06, #d1724d);
+  background-image: -o-linear-gradient(top, #E94A06, #d1724d);
+  background-image: linear-gradient(to bottom, #E94A06, #d1724d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 1px #666666;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 3px 8px 3px 8px;
+  text-decoration: none;
+}
+
+.botonNaranja:hover {
+  background: #e86f3f;
+  background-image: -webkit-linear-gradient(top, #e86f3f, #e67245);
+  background-image: -moz-linear-gradient(top, #e86f3f, #e67245);
+  background-image: -ms-linear-gradient(top, #e86f3f, #e67245);
+  background-image: -o-linear-gradient(top, #e86f3f, #e67245);
+  background-image: linear-gradient(to bottom, #e86f3f, #e67245);
+  text-decoration: none;
+}
+
+.botonAzul {
+   background: #03031c;
+  background-image: -webkit-linear-gradient(top, #03031c, #000029);
+  background-image: -moz-linear-gradient(top, #03031c, #000029);
+  background-image: -ms-linear-gradient(top, #03031c, #000029);
+  background-image: -o-linear-gradient(top, #03031c, #000029);
+  background-image: linear-gradient(to bottom, #03031c, #000029);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 1px #666666;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 3px 8px 3px 8px;
+  margin-right:5px;
+  text-decoration: none;
+}
+
+.botonAzul:hover {
+  background: #02023d;
+  background-image: -webkit-linear-gradient(top, #02023d, #03031f);
+  background-image: -moz-linear-gradient(top, #02023d, #03031f);
+  background-image: -ms-linear-gradient(top, #02023d, #03031f);
+  background-image: -o-linear-gradient(top, #02023d, #03031f);
+  background-image: linear-gradient(to bottom, #02023d, #03031f);
+  text-decoration: none;
+}
+
+.enlaceNaranja
+{
+	color: #E94A06;
+}
+
+.enlaceNaranja:hover
+{
+	color: #e86f3f;
+}
+
+@media screen and (max-width: 500px) {
+     
+  #txtBusqueda
+  {    
+    width: 120px;
+  }
+  
+}

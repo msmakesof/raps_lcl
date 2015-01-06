@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bx-wrapper {
+    margin: 0 auto 60px;
+    padding: 0;
+    position: relative;
+}
+.bx-wrapper img {
+    display: block;
+    max-width: 100%;
+}
+.bx-wrapper .bx-viewport {
+    left: -5px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: -30px;
+    position: absolute;
+    width: 100%;
+}
+.bx-wrapper .bx-loading {
+    background: url("images/bx_loader.gif") no-repeat scroll center center #fff;
+    height: 100%;
+    left: 0;
+    min-height: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+    color: #666;
+    font-family: Arial;
+    font-size: 0.85em;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: url("images/controls.png") no-repeat scroll -76px -30px rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    margin: 0 5px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: url("images/controls.png") no-repeat scroll -76px -7px rgba(0, 0, 0, 0);
+}
+.bx-wrapper .bx-prev {
+    background: url("images/controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0);
+    left: -42px;
+    opacity: 0.5;
+}
+.bx-wrapper .bx-next {
+    background: url("images/controls.png") no-repeat scroll -43px -32px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    right: -34px;
+}
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
+.bx-wrapper .bx-next:hover {
+    background-position: -43px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+    height: 32px;
+    margin-top: -16px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 32px;
+    z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+    background: url("images/controls.png") no-repeat scroll -86px -11px rgba(0, 0, 0, 0);
+    display: block;
+    height: 11px;
+    margin: 0 3px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 10px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+    background: url("images/controls.png") no-repeat scroll -86px -44px rgba(0, 0, 0, 0);
+    display: block;
+    height: 11px;
+    margin: 0 3px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 9px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+.bx-wrapper .bx-caption {
+    background: none repeat scroll 0 0 rgba(80, 80, 80, 0.75);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    display: block;
+    font-family: Arial;
+    font-size: 0.85em;
+    padding: 10px;
+}
+body {
+    background: url("images/wall1.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+.login-container {
+    min-width: 960px;
+}
+.logo {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.login-header {
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+.content-wrapper {
+    clear: both;
+    height: 100%;
+    margin-top: 1%;
+    min-width: 940px;
+}
+.login-area {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.carousal-container {
+    display: inline-block;
+    float: right;
+    width: 550px;
+}
+.login-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    height: 250px;
+    padding: 20px;
+    text-align: left;
+    width: 450px;
+}
+.login-form {
+    margin-top: 25px;
+}
+.footer-content {
+    margin: 10px 0;
+}
+.footer-icons {
+    margin: 10px 0;
+    min-width: 280px;
+    text-align: right;
+    width: 50%;
+}
+.sbutton {
+    width: 100px;
+}
+.login-subscript {
+    text-align: right;
+}
+.bxslider {
+    margin: 0;
+}
+.slide {
+    min-height: 200px;
+    min-width: 550px;
+    padding: 2%;
+    text-align: center;
+    vertical-align: middle;
+}
+.slide img {
+    display: inline-block;
+}
+.helpLinks {
+    background: none repeat scroll 0 0 #efefef;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: -2px 0 3px;
+    float: right;
+    margin-top: 20px;
+    padding: 5px;
+}
+.helpLinks a {
+    padding: 10px;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (max-width: 1150px) {
+.carousal-container {
+    display: none;
+}
+.login-area {
+    margin-left: 0;
+}
+}
+@media (min-width: 1151px) {
+.carousal-container {
+    display: inline-block;
+}
+.login-area {
+    margin-left: 5%;
+}
+}
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_tipodocto" value="name:id;datatype:int,name:cod_tipodocto;datatype:string,name:nom_tipodocto;datatype:string" />
+	<infoitem key="UD_rs_dependencia" value="name:cod_dependencia;datatype:int,name:nom_dependencia;datatype:string" />
+	<infoitem key="UD_rs_aera" value="name:id_cargo;datatype:int,name:nom_cargo;datatype:string" />
+	<infoitem key="UD_rs_cargo" value="name:id_cargo;datatype:int,name:nom_cargo;datatype:string" />
+	<infoitem key="UD_rs_tipousuario" value="name:cod_tipousuario;datatype:string,name:nom_tipousuario;datatype:string" />
+	<infoitem key="UD_rs_respuesta" value="name:cod_respuesta;datatype:string,name:nom_respuesta;datatype:string" />
+	<infoitem key="UD_rs_ttrafico" value="name:cod_trafico;datatype:string,name:nom_trafico;datatype:string" />
+</info>

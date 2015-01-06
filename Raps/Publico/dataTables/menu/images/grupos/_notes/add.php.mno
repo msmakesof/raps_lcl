@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_tipo_auditoria" value="name:cod_ti_audit;datatype:int,name:nom_ti_audit;datatype:string" />
+	<infoitem key="UD_rs_cen_costos" value="name:codigo_cen_costos;datatype:string,name:nombre_cen_costos;datatype:string" />
+	<infoitem key="UD_rs_cargos" value="name:id;datatype:int,name:id_grupo;datatype:int,name:nombre_grupo;datatype:string,name:estado;datatype:string" />
+	<infoitem key="UD_rs_tipousuario" value="name:codigo_tu;datatype:string,name:nombre_tu;datatype:string" />
+	<infoitem key="UD_rs_estados" value="name:id;datatype:int,name:cod_estados;datatype:string,name:nombre_estados;datatype:string" />
+</info>
